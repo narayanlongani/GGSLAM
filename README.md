@@ -100,4 +100,4 @@ Many thanks to GS-ICP SLAM Team— [Seongbo Ha][alink], [Jiung Yeon][blink], Hye
 
 [alink]: https://riboha.github.io
 [blink]: https://humdrum-balance-b8f.notion.site/Jiung-Yeon-6754922a22814c9a95af88801a96fb4b
-[gsicplink]: https://github.com/PRBonn/kiss-icp
+[gsicplink]: https://github.com/Lab-of-AI-and-Robotics/GS_ICP_SLAM
