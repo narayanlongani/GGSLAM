@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h1 align="center"> 🌏 GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting </h1>
+  <h1 align="center"> GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting </h1>
 
   <p align="center">
     <a href="https://github.com/ChiyunNoh/GaRLIO"><img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" /></a>
@@ -17,7 +17,7 @@
     <a href="https://www.irl-cbnu.com/"><strong>Intelligent Robotics Lab (IRL)</strong></a>
   </p>
 
-  <h3 align="center"><a href="https://arxiv.org/abs/2502.07703">Paper</a> | <a href="https://youtu.be/zeH3RQdIviw?si=aZg_WZfn4ErqkNu8">Video</a></h3>
+  <h3 align="center"><a href="https://jkros.org/xml/44009/44009.pdf">Paper</a> | <a href="https://youtu.be/">Video</a></h3>
   <div align="center"></div>
 </p>
 
@@ -37,7 +37,7 @@ This repository contains the code for GGSLAM: An Object-Level SLAM System Using 
       <a href="#citation">Citation</a>
     </li>
     <li>
-      <a href="#contact">Contact</a>
+      <a href="#Acknowledgement">Acknowledgement</a>
     </li>
   </ol>
 </details>
@@ -52,11 +52,34 @@ by Tracking Anything to segment objects effectively, enabling the real-time cons
 
 ## Installation
 
+## Environments
+Install requirements
+```bash
+conda create -n gsicpslam python==3.9
+conda activate gsicpslam
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+Also, PCL is needed for fast-gicp submodule.
+
+Install submodules
+
+```bash
+conda activate gsicpslam
+pip install submodules/diff-gaussian-rasterization
+pip install submodules/simple-knn
+
+cd submodules/fast_gicp
+mkdir build
+cd build
+cmake ..
+make
+cd ..
+python setup.py install --user
+```
+
 
 ## Citation
-
-
-
 ```
 @article{ Jeong Hyun-do2025gg,
     AUTHOR = { Jung Hyundo and Gon-Woo Kim },
@@ -70,3 +93,14 @@ by Tracking Anything to segment objects effectively, enabling the real-time cons
     ADDRESS = {SOUTH KOREA},
 }
 ```
+
+## Acknowledgement
+
+Many thanks to KISS team—[Ignacio Vizzo][nacholink], [Tiziano Guadagnino][guadagninolink], [Benedikt Mersch][merschlink]—to provide outstanding LiDAR odometry codes!
+
+Please refer to [KISS-ICP][kissicplink] for more information
+
+[nacholink]: https://github.com/nachovizzo
+[guadagninolink]: https://github.com/tizianoGuadagnino
+[merschlink]: https://github.com/benemer
+[kissicplink]: https://github.com/PRBonn/kiss-icp
