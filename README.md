@@ -19,8 +19,6 @@
   <div align="center"></div>
 </p>
 
-This repository contains the code for GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting 
-
 <!-- TABLE OF CONTENTS -->
 <details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
   <summary>Table of Contents</summary>
