@@ -47,7 +47,7 @@ by Tracking Anything to segment objects effectively, enabling the real-time cons
 
 ## Installation
 ### Prerequisited
-Please follow of [FAST-LIVO2][gsicplink] and [GS-ICP Slam][gsicplink].
+Please follow requirements from [FAST-LIVO2][gsicplink] and [GS-ICP Slam][gsicplink].
 
 Install requirements
 ```bash
