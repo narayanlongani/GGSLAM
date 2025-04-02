@@ -1,5 +1,3 @@
-# GGSLAM
-An Object-Level SLAM System Using Gaussian Grouping and Splatting
 <p align="center">
 
   <h1 align="center"> 🌏 GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting </h1>
@@ -72,8 +70,3 @@ by Tracking Anything to segment objects effectively, enabling the real-time cons
     ADDRESS = {SOUTH KOREA},
 }
 ```
-
-## Contact
-If you have any questions, please contact:
-
-- Chiyun Noh {[gch06208@snu.ac.kr]()}
