@@ -55,13 +55,18 @@ conda create -n gsicpslam python==3.9
 conda activate gsicpslam
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
+conda activate gsicpslam
 ```
 Also, PCL is needed for fast-gicp submodule.
 
+```bash
+mkdir -p gg_ws/src
+cd gg_ws/src
+git clone https://github.com/dsowrd/Segment-Any-Gaussian-Splatting-SLAM.git
+
 Install submodules
 
-```bash
-conda activate gsicpslam
+cd Segment-Any-Gaussian-Splatting-SLAM
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 
