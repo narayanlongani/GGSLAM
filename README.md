@@ -92,11 +92,8 @@ python setup.py install --user
 
 ## Acknowledgement
 
-Many thanks to GS-ICP SLAM Team— [Seongbo Ha][alink], [Jiung Yeon][blink], [Hyeonwoo Yu]— for provide codes!
-
-Please refer to [GS-ICP-SLAM][gsicplink] for more information
+Many thanks to GS-ICP SLAM Team— [Seongbo Ha][alink], [Jiung Yeon][blink], Hyeonwoo Yu for [GS-ICP-SLAM][gsicplink]!
 
 [alink]: https://riboha.github.io
 [blink]: https://humdrum-balance-b8f.notion.site/Jiung-Yeon-6754922a22814c9a95af88801a96fb4b
-[merschlink]: https://github.com/benemer
 [gsicplink]: https://github.com/PRBonn/kiss-icp
