@@ -3,6 +3,7 @@
   <h1 align="center"> GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting </h1>
 
   <p align="center">
+    <a href="https://github.com/cocel-postech/genz-icp/tree/master/ros"><img src="https://img.shields.io/badge/ROS1-Noetic-blue" /></a>
     <a href="https://jkros.org/xml/44009/44009.pdf"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
     <a href="https://youtu.be/"><img src="https://img.shields.io/badge/Video-video-yellow.svg?style=flat-square" /></a>
     </a>
