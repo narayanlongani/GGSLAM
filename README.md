@@ -77,6 +77,10 @@ cmake ..
 make
 cd ..
 python setup.py install --user
+
+Build package
+cd ~/gg_ws
+catkin_make
 ```
 
 
