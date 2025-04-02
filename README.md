@@ -82,15 +82,14 @@ catkin_make
 
 ## Citation
 ```
-@article{ Jeong Hyun-do2025gg,
-    AUTHOR = { Jung Hyundo and Gon-Woo Kim },
-    TITLE = { GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting},
+@article{Jeong Hyun-do2025gg,
+    AUTHOR = {Jung Hyundo and Gon-Woo Kim},
+    TITLE = {GGSLAM: An Object-Level SLAM System Using Gaussian Grouping and Splatting},
     JOURNAL={Robot Society Journal},
     volume={20},
     number={1},
     pages={84--93},
-    YEAR = { 2025 },
-    MONTH = { May. },
+    YEAR = {2025},
     ADDRESS = {SOUTH KOREA},
 }
 ```
