@@ -46,6 +46,9 @@ Simultaneous Localization and Mapping (SLAM) is crucial for applications such as
 by Tracking Anything to segment objects effectively, enabling the real-time construction of high-quality 3D maps. By applying Gaussian Grouping, the system efficiently identifies static objects while integrating object-level data, maintaining the accuracy of traditional Gaussian Splatting-based SLAM. Experimental results demonstrate the system’s high accuracy and efficiency across various environments, enhancing object recognition and interaction for robots, as well as enabling natural interactions with virtual objects in VR/AR applications. This study advances SLAM technologies by providing a high-quality 3D reconstruction method that incorporates object-level information, expanding its applicability to diverse domains.
 
 ## Installation
+### Prerequisited
+Follow [FAST-LIVO2][gsicplink] and [GS-ICP Slam][gsicplink].
+
 Install requirements
 ```bash
 conda create -n gsicpslam python==3.9
@@ -96,8 +99,7 @@ catkin_make
 
 ## Acknowledgement
 
-Many thanks to GS-ICP SLAM Team— [Seongbo Ha][alink], [Jiung Yeon][blink], Hyeonwoo Yu for [GS-ICP-SLAM][gsicplink]!
+Many thanks to [GS-ICP-SLAM][gsicplink] and [FAST-LIVO2][fastlivo2link]!
 
-[alink]: https://riboha.github.io
-[blink]: https://humdrum-balance-b8f.notion.site/Jiung-Yeon-6754922a22814c9a95af88801a96fb4b
 [gsicplink]: https://github.com/Lab-of-AI-and-Robotics/GS_ICP_SLAM
+[fastlivo2link]: https://github.com/hku-mars/FAST-LIVO2
