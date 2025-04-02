@@ -8,9 +8,9 @@
   </p>
   
   <p align="center">
-    <a href="https://rpm.snu.ac.kr"><strong>Jung Hyundo</strong></a>
+    <strong>Jung Hyundo</strong></a>
     ·
-    <a href="https://rpm.snu.ac.kr"><strong>Gon-Woo Kim</strong></a>
+    <strong>Gon-Woo Kim</strong></a>
     <br/>
     <a href="https://www.irl-cbnu.com/"><strong>Intelligent Robotics Lab (IRL)</strong></a>
   </p>
