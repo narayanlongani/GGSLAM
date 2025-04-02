@@ -51,8 +51,6 @@ Simultaneous Localization and Mapping (SLAM) is crucial for applications such as
 by Tracking Anything to segment objects effectively, enabling the real-time construction of high-quality 3D maps. By applying Gaussian Grouping, the system efficiently identifies static objects while integrating object-level data, maintaining the accuracy of traditional Gaussian Splatting-based SLAM. Experimental results demonstrate the system’s high accuracy and efficiency across various environments, enhancing object recognition and interaction for robots, as well as enabling natural interactions with virtual objects in VR/AR applications. This study advances SLAM technologies by providing a high-quality 3D reconstruction method that incorporates object-level information, expanding its applicability to diverse domains. </details>
 
 ## Installation
-
-## Environments
 Install requirements
 ```bash
 conda create -n gsicpslam python==3.9
