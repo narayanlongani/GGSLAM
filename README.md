@@ -8,7 +8,7 @@
   </p>
   
   <p align="center">
-    <strong>Jung Hyundo</strong></a>
+    <a href="https://www.irl-cbnu.com/professor"><strong>Jung Hyundo</strong></a>
     ·
     <strong>Gon-Woo Kim</strong></a>
     <br/>
