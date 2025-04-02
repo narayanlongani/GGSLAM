@@ -8,9 +8,9 @@
   </p>
   
   <p align="center">
-    <a href="https://www.irl-cbnu.com/professor"><strong>Jung Hyundo</strong></a>
+    <strong>Jung Hyundo</strong></a>
     ·
-    <strong>Gon-Woo Kim</strong></a>
+    <a href="https://www.irl-cbnu.com/professor"><strong>Gon-Woo Kim</strong></a>
     <br/>
     <a href="https://www.irl-cbnu.com/"><strong>Intelligent Robotics Lab (IRL)</strong></a>
   </p>
